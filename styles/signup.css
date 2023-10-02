@@ -98,10 +98,17 @@ input[type="email"]  {
   border: 1px solid #D9D9D9;
   background-color: transparent;
   font-weight: 550;
+  display: flex;
+  align-items: center;
 }
 
 .signin button i{
   margin-right: 3px;
+}
+
+.signin button img{
+  width: 20px;
+  margin: 0 2px 0 0;
 }
 
 .signup p.txtSignIn{
