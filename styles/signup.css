@@ -33,8 +33,8 @@ main{
 }
 
 .form-container{
-  width: 420px;
-  /* background-color: blueviolet; */
+  width: 100%;
+  max-width: 420px;
 }
 
 .form-container h3{
@@ -46,8 +46,10 @@ main{
   font-weight: 550;
 }
 
-.form-container .signup input[type="text"], input[type="password"],input[type="email"]  {
-  margin-bottom: 30px;
+.form-container .signup input[type="text"], 
+input[type="password"],
+input[type="email"]  {
+  margin-bottom: 20px;
   width: 100%;
   padding: 10px;
   border-radius: 10px;
@@ -57,7 +59,7 @@ main{
 .checkbox-container {
   display: flex;
   margin-bottom: 20px;
-}
+} 
 
 .checkbox-container input{
   margin-right: 5px;
