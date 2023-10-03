@@ -10,24 +10,32 @@
   <div class="container">
     <div class="form-container">
       <h3>Welcome back!</h3>
-      <p>Enter your Credentials to access your account</p>
+      <h4 id="firsth4">Enter your Credentials to access your account</h4>
       <form action="">
-        <label for="email"><h4>Email address</h4></label>
-        <input type="email" name="email" id="email">
+        <label for="email">Email address</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email">
 
-        <label for="password">Password</label>
-        <label for="forgot"><a href="#">forgot password</a></label>
-        <input type="password" name="password" id="password">
+        <div class="forgot-label">
+          <label for="password">Password</label>
+          <span><a href="">forgot password</a></span>
+        </div>
+        <input type="password" name="password" id="password" placeholder="Password">
 
-        <input type="checkbox">
-        <label for="check"><p>Remember for 30 days</p></label>
+        <div class="checkbox-container">
+          <input type="checkbox">
+          <label for="check">Remember for 30 days</label>
+        </div>
 
-        <button type="">Login</button>
-        <hr>
+        <button type="" class="btn-login">Login</button>
+
+        <div class="container-hr">
+          <span>Or</span>
+          <hr>
+        </div>
 
         <div class="signin">
-          <button>Sign in with Google</button>
-          <button>Sign in with Apple</button>
+          <button><img src="img/google.png" alt="">Sign in with Google</button>
+          <button><img src="img/pngegg.png" alt="">Sign in with Apple</button>
         </div>
 
         <p class="txt_signup">Don't Have an account? <a href="#">Sign Up</a></p>
