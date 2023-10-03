@@ -47,8 +47,8 @@ main{
 }
 
 .form-container .signup input[type="text"], 
-input[type="password"],
-input[type="email"]  {
+.form-container .signup input[type="password"],
+.form-container .signup input[type="email"] {
   margin-bottom: 20px;
   width: 100%;
   padding: 10px;
@@ -61,16 +61,14 @@ input[type="email"]  {
   margin-bottom: 20px;
 } 
 
-.checkbox-container input{
-  margin-right: 5px;
-}
-
-.checkbox-container label p{
-  font-size: 14px;
+.checkbox-container label{
+  font-size: 12px;
   font-weight: 500;
+  margin-left: 5px;
 }
 
-.checkbox-container label p a {
+
+.checkbox-container label a {
   color: black;
 }
 
@@ -89,7 +87,7 @@ input[type="email"]  {
   display: flex;
   justify-content: space-between;
   margin-top: 25px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 
 .signin button{
