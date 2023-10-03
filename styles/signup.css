@@ -137,3 +137,11 @@ body{
   transform: translateX(-50%);
   padding: 0 3px;
 }
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+
+}
