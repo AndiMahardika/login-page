@@ -53,6 +53,14 @@ body{
   border: 1px solid #D9D9D9;
 }
 
+.form-container .signup input[type="text"]:focus,
+.form-container .signup input[type="password"]:focus,
+.form-container .signup input[type="email"]:focus {
+  outline: none; 
+  border-color: #D9D9D9; 
+  box-shadow: 0 0 5px rgba(58, 91, 34, 0.5); 
+}
+
 .checkbox-container {
   display: flex;
   margin-bottom: 20px;
