@@ -139,9 +139,31 @@ body{
 }
 
 @media only screen and (max-width: 768px) {
+  .container {
+    width: 80%; 
+    margin-inline: auto;
+  }
 
+  .background {
+    display: none; 
+  }
+
+  .form-container {
+    max-width: 100%; 
+  }
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 80%; 
+    margin-inline: auto;
+  }
 
+  .background {
+    display: none; 
+  }
+
+  .form-container {
+    max-width: 100%; 
+  }
 }
