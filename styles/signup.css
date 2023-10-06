@@ -167,3 +167,15 @@ body{
     max-width: 100%; 
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .signin {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .signin button{
+    width: 100%;
+    justify-content: center;
+  }
+}
