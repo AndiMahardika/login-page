@@ -138,6 +138,7 @@ body{
   padding: 0 3px;
 }
 
+/* responsive */
 @media only screen and (max-width: 768px) {
   .container {
     width: 80%; 
@@ -175,7 +176,6 @@ body{
   }
 
   .signin button{
-    width: 100%;
     justify-content: center;
   }
 }
